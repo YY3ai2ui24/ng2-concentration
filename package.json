@@ -1,0 +1,28 @@
+{
+  "name": "ng2-concentration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc -p .",
+    "browserify": "browserify ./index.js -o ./bundle.js",
+    "build": "npm run tsc && npm run browserify"
+  },
+  "keywords": [],
+  "author": "YY3ai2ui24",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "@angular/common": "^2.0.0-rc.1",
+    "@angular/compiler": "^2.0.0-rc.1",
+    "@angular/core": "^2.0.0-rc.1",
+    "@angular/platform-browser": "^2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.1",
+    "core-js": "^2.4.0",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  }
+}
